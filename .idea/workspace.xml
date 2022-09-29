@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd3c7aac-57c7-469f-8fff-cdb1dda2edf1" name="默认变更列表" comment="" />
+    <list default="true" id="fd3c7aac-57c7-469f-8fff-cdb1dda2edf1" name="默认变更列表" comment="ys">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -36,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2F1XqxDHX6P9RvOFdsEINNO7KZq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -48,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/reggie/service/impl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -126,12 +132,24 @@
       <workItem from="1664026910226" duration="1468000" />
       <workItem from="1664076268918" duration="15706000" />
       <workItem from="1664167654077" duration="13027000" />
-      <workItem from="1664354573275" duration="6393000" />
+      <workItem from="1664354573275" duration="7468000" />
     </task>
+    <task id="LOCAL-00001" summary="ys">
+      <created>1664419600113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664419600113</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ys" />
+    <option name="LAST_COMMIT_MESSAGE" value="ys" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
