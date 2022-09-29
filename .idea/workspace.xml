@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd3c7aac-57c7-469f-8fff-cdb1dda2edf1" name="默认变更列表" comment="ys">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fastRequestCollection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fastRequestCurrentProjectConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -132,7 +135,7 @@
       <workItem from="1664026910226" duration="1468000" />
       <workItem from="1664076268918" duration="15706000" />
       <workItem from="1664167654077" duration="13027000" />
-      <workItem from="1664354573275" duration="7468000" />
+      <workItem from="1664354573275" duration="7823000" />
     </task>
     <task id="LOCAL-00001" summary="ys">
       <created>1664419600113</created>
@@ -141,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664419600113</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ys">
+      <created>1664420556466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664420556466</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
