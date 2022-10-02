@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd3c7aac-57c7-469f-8fff-cdb1dda2edf1" name="默认变更列表" comment="ys">
-      <change afterPath="$PROJECT_DIR$/.idea/fastRequestCollection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fastRequestCurrentProjectConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/filter/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test001.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +47,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="2F1XqxDHX6P9RvOFdsEINNO7KZq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java redis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,7 +75,7 @@
     <property name="project.structure.last.edited" value="问题" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -78,7 +86,14 @@
       <recent name="C:\Users\86188\Desktop\外卖项目\waimai\src\main\java\com\reggie\controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ReggieApplication">
+  <component name="RunManager" selected="JUnit.RedisTest.TestString">
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <module name="Reggie-001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -92,11 +107,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisTest.TestString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Reggie-001" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RedisTest" />
+      <option name="METHOD_NAME" value="TestString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test001.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Reggie-001" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test001" />
       <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test001.Triangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Reggie-001" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test001" />
+      <option name="METHOD_NAME" value="Triangle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,6 +152,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisTest.TestString" />
+        <item itemvalue="应用程序.Test2" />
+        <item itemvalue="JUnit.Test001.Triangle" />
         <item itemvalue="Spring Boot.ReggieApplication" />
         <item itemvalue="JUnit.Test001.Test1" />
       </list>
@@ -135,7 +173,9 @@
       <workItem from="1664026910226" duration="1468000" />
       <workItem from="1664076268918" duration="15706000" />
       <workItem from="1664167654077" duration="13027000" />
-      <workItem from="1664354573275" duration="7823000" />
+      <workItem from="1664354573275" duration="9081000" />
+      <workItem from="1664528574190" duration="1486000" />
+      <workItem from="1664704472288" duration="6494000" />
     </task>
     <task id="LOCAL-00001" summary="ys">
       <created>1664419600113</created>
@@ -151,11 +191,30 @@
       <option name="project" value="LOCAL" />
       <updated>1664420556466</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ys">
+      <created>1664420644471</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664420644471</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ys" />
@@ -172,5 +231,9 @@
         <watch expression="dishDto" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
