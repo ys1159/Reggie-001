@@ -5,8 +5,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd3c7aac-57c7-469f-8fff-cdb1dda2edf1" name="默认变更列表" comment="ys">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/cartData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/js/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/filter/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/api/address.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/api/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/api/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/cart_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/checked_false.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/checked_true.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/demo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/demo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/demo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/demo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/favico.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/headPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/locations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/mainBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/money.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/noImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/no_order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/no_wifi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/orders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/subtract.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/women.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/js/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/js/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/js/vant.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/add-order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/address-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/address.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/no-wify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/pay-success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/add-order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/address-edit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/address.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/no-wify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/pay-success.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/styles/vant.min.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +95,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="v2.0" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +135,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java redis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,16 +147,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86188\Desktop\外卖项目\waimai\src\main\resources" />
+      <recent name="C:\Users\86188\Desktop\外卖项目\waimai\src\main\resources\front\page" />
       <recent name="C:\Users\86188\Desktop\外卖项目\waimai\src\main\java\com\reggie\service\impl" />
       <recent name="C:\Users\86188\Desktop\外卖项目\waimai\src\main\java\com\reggie\service" />
       <recent name="C:\Users\86188\Desktop\外卖项目\waimai\src\main\java\com\reggie\mapper" />
-      <recent name="C:\Users\86188\Desktop\外卖项目\waimai\src\main\java\com\reggie\entity" />
-      <recent name="C:\Users\86188\Desktop\外卖项目\waimai\src\main\java\com\reggie\controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RedisTest.TestString">
+  <component name="RunManager" selected="Spring Boot.ReggieApplication">
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test2" />
       <module name="Reggie-001" />
@@ -93,13 +167,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,10 +225,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ReggieApplication" />
         <item itemvalue="JUnit.RedisTest.TestString" />
         <item itemvalue="应用程序.Test2" />
         <item itemvalue="JUnit.Test001.Triangle" />
-        <item itemvalue="Spring Boot.ReggieApplication" />
         <item itemvalue="JUnit.Test001.Test1" />
       </list>
     </recent_temporary>
@@ -173,7 +249,8 @@
       <workItem from="1664354573275" duration="9081000" />
       <workItem from="1664528574190" duration="1486000" />
       <workItem from="1664704472288" duration="7328000" />
-      <workItem from="1664786216072" duration="2734000" />
+      <workItem from="1664786216072" duration="5140000" />
+      <workItem from="1664871726738" duration="4020000" />
     </task>
     <task id="LOCAL-00001" summary="ys">
       <created>1664419600113</created>
@@ -224,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664789672145</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ys">
+      <created>1664790991640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664790991640</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
