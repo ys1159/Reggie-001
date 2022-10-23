@@ -225,5 +225,22 @@ public class DishController {
 
         return R.success(dishDtoList);
     }
+    // 批量或者单个改变菜品的销售状态
+    @PostMapping("/status/{status}")
+    public R<String> updateSaleStatus(@PathVariable("status") Integer status, @RequestParam List<Long> ids) {
+        //菜品的状态(1为售卖,0为停售)由前端修改完成后通过请求路径占位符的方式传到后端,然后请求参数的类型设置为list类型,这样就可以进行批量或者单个菜品进行修改售卖状态
+        if (dishService.batchUpdateStatusByIds(status, ids))
+            return R.success("菜品的售卖状态已更改！");
+        else
+            return R.error("售卖状态无法更改！");
+    }
+
+    //批量删除菜品
+    @DeleteMapping
+    public R<String> batchDelete(@RequestParam("id") List<Long> id) {
+        dishService.batchDeleteByIds(id);
+
+        return R.success("成功删除菜品！");
+    }
 
 }

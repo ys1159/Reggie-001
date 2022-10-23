@@ -2,6 +2,7 @@ package com.reggie.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.reggie.common.CustomException;
 import com.reggie.dto.DishDto;
 import com.reggie.entity.Dish;
 import com.reggie.entity.DishFlavor;
@@ -77,6 +78,45 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
 
         dishFlavorService.saveBatch(flavors);
     }
+    /**
+     * 批量删除菜品
+     * @param ids
+     */
+    @Override
+    public void batchDeleteByIds(List<Long> ids) {
+        LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
+
+        queryWrapper.in(ids != null, Dish::getId, ids);
+        List<Dish> list = this.list(queryWrapper);
+
+        if (list != null) {
+            for (Dish dish : list) {
+                //要先判断该菜品是否为停售状态,否则无法删除并且抛出异常处理
+                if (dish.getStatus() == 0) {
+                    this.removeByIds(ids);
+                } else {
+                    throw new CustomException("有菜品正在售卖，无法全部删除！");
+                }
+            }
+        }
+    }
+        @Override
+        public boolean batchUpdateStatusByIds (Integer status, List < Long > ids){
+            LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
+
+//对应的sql语句:SELECT id,name,category_id,price,code,image,description,status,sort,create_time,update_time,create_user,update_user,is_deleted FROM dish WHERE (id IN (?,?))
+            queryWrapper.in(ids != null, Dish::getId, ids);
+            List<Dish> list = this.list(queryWrapper);
+            if (list != null) {
+                for (Dish dish : list) {
+                    dish.setStatus(status);//修改菜品的售卖状态
+                    this.updateById(dish);
+                }
+                return true;
+            } else {
+                return false;
+            }
+        }
+    }
 
 
-}

@@ -12,7 +12,7 @@ const deleteDish = (id) => {
   return $axios({
     url: '/dish',
     method: 'delete',
-    params: { id }
+    params: { id}
   })
 }
 

@@ -1,7 +1,8 @@
 package com.reggie.common;
 
 /**
- * 基于ThreadLocal封装工具类，保存，获取当前用户id
+ * 基于ThreadLocal封装工具类，
+ * 保存，获取当前用户id
  *
  */
 
